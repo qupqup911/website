@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>陳品瑄的個人網頁</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>陳品瑄的個人網頁</h1>
-        <script src="script.js"></script>
-        <nav>
-            <ul>
-                <li><a href="#about">關於我</a></li>
-                <li><a href="#skills">興趣</a></li>
-                <li><a href="#contact">聯絡我</a></li>
-            </ul>
-        </nav>
-        <section id="about">
-            <h2>關於我</h2>
-            <img src="https://cdn.discordapp.com/attachments/1298545988608196690/1324447144496730232/1735843143063.jpg?ex=67782f06&is=6776dd86&hm=bce4195f51ad178258e0c9f11e3b975f5f3b365434fa40b6684f8660e0b11ea8&" alt="陳品瑄的照片">
-            <p>你好！我是陳品瑄，目前就讀於國立嘉義大學數位學系設計與管理學系。我喜歡設計和程式開發，對輔諮和傳播也有興趣。</p>
-        </section>
-        <section id="skills">
-            <h2>興趣</h2>
-            <ul>
-                <li>聽音樂</li>
-                <li>看漫畫</li>
-                <li>追劇</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>聯絡我</h2>
-            <form id="contactForm">
-                <label for="name">姓名：</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">電子郵件：</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">訊息：</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">送出</button>
-            </form>
-            <p id="responseMessage"></p>
-        </section>
-        <footer>
-            <p>&copy;2025陳品瑄. 保留所有權利</p>
-        </footer>
-        <script src="script.js"></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳品瑄的個人網頁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>陳品瑄的個人網頁</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#skills">興趣</a></li>
+            <li><a href="#contact">聯絡我</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>關於我</h2>
+        <img src="https://cdn.discordapp.com/attachments/1298545988608196690/1324447144496730232/1735843143063.jpg?ex=67782f06&is=6776dd86&hm=bce4195f51ad178258e0c9f11e3b975f5f3b365434fa40b6684f8660e0b11ea8&" alt="陳品瑄的照片">
+        <p>你好！我是陳品瑄，目前就讀於國立嘉義大學數位學系設計與管理學系。我喜歡設計和程式開發，對輔諮和傳播也有興趣。</p>
+    </section>
+    <section id="skills">
+        <h2>興趣</h2>
+        <ul>
+            <li>聽音樂</li>
+            <li>看漫畫</li>
+            <li>追劇</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>聯絡我</h2>
+        <form id="contactForm">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">訊息：</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" id="submitButton">送出</button>
+        </form>
+        <h2>留言區</h2>
+        <div id="list">
+            <article id="news">
+                <p>你好！歡迎留言！</p>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;2025 陳品瑄. 保留所有權利</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
